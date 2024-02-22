@@ -1,6 +1,6 @@
 package com.rk.quizapp.service;
 
-import com.rk.quizapp.Question;
+import com.rk.quizapp.model.Question;
 import com.rk.quizapp.dao.QuestionDao;
 import jakarta.persistence.EntityNotFoundException;
 import org.slf4j.Logger;
@@ -10,7 +10,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
